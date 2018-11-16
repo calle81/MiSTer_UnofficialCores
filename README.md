@@ -17,4 +17,6 @@ The goal of these unofficial cores is to enable the Coefficient scaling method, 
 I consider this a stop-gap solution to satisfy more demanding users as the scaling matures in the main project. These should be considered unstable test builds for enthusiasts, and in time I hope an equivilent or better solution for a clear HDMI scaler becomes available without special builds.
 
 ## Instructions: ##
-Update your MiSTer binary to the latest version. Place Filters folder on the root of your SD card. You will be able load the different Coeffs real time from the Cores OSD now!
+* Update your MiSTer binary to the latest version
+* Place Filters folder(Coeff Files in the folder) on the root of your SD card
+* You will be able load the different Coeffs real time from the Cores OSD now!
