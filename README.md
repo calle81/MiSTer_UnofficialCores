@@ -19,4 +19,4 @@ I consider this a stop-gap solution to satisfy more demanding users as the scali
 ## Instructions: ##
 * Update your MiSTer binary to the latest version
 * Place Filters folder(Coeff Files in the folder) on the root of your SD card
-* You will be able load the different Coeffs real time from the Cores OSD now!
+* You will be able load the different Coeffs real time from the Core's OSD now!
