@@ -1,7 +1,7 @@
 # range -128..128
 # sum of line must not exceed the range!
 
-# Nearest Neighbor on x-axis and y-axis
+# Mearest Neighbor on x-axis and y-axis
 # Phase 0 is centered at T1 so this should
 # be correct and not have 0.5 pixel offset?
 
