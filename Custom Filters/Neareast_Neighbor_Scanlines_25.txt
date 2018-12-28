@@ -1,0 +1,42 @@
+# range -128..128
+# sum of line must not exceed the range!
+
+# Mearest Neighbor on x-axis and y-axis with 25% Scanlines
+# Phase 0 is centered at T1 so this should
+# be correct and not have 0.5 pixel offset?
+
+# horizontal coefficients
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+
+# vertical coefficients
+   0, 128,   0,   0
+   0, 127,   0,   0
+   0, 123,   0,   0
+   0, 117,   1,   0
+   0, 110,   2,   0
+   0, 101,   5,   0
+   0,  89,  12,   0
+   0,  71,  26,   0
+   0,  48,  48,   0
+   0,  26,  71,   0
+   0,  12,  89,   0
+   0,   5, 101,   0
+   0,   2, 110,   0
+   0,   1, 117,   0
+   0,   0, 123,   0
+   0,   0, 127,   0
