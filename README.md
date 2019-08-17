@@ -3,7 +3,7 @@ Unofficial builds of popular MiSTer cores built using the Filter Options for HDM
 
 All core licenses and original cores can be viewed at the official project page: https://github.com/MiSTer-devel/Main_MiSTer/wiki
 
-The goal of these unofficial cores is to enable the Filter scaling method, which wil provide different scaling options within Core's OSD.
+The goal of these Unofficial Cores is to enable the Filter scaling method where needed, which wil provide different scaling options within Core's OSD.
 
 ## Some known issues: ##
 * At lower HDMI resolutions, text may appear uneven/distorted.
