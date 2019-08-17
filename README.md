@@ -1,4 +1,4 @@
-# MiSTer_Coeff
+# MiSTer_UnofficialCores
 Unofficial builds of popular MiSTer cores built using the Filter Options for HDMI.
 
 All core licenses and original cores can be viewed at the official project page: https://github.com/MiSTer-devel/Main_MiSTer/wiki
@@ -12,8 +12,6 @@ The goal of these unofficial cores is to enable the Filter scaling method, which
 * There may be other unintended visual issues. If this is the case, use the official core for your setup.
 
 ## Notes: ##
-I consider this a stop-gap solution to satisfy more demanding users as the scaling matures in the main project. These should be considered unstable test builds for enthusiasts, and in time I hope an equivilent or better solution for a clear HDMI scaler becomes available without special builds.
-
 * I have created and provided some custom Filters
 * Arcade ROMs have been injected into the RBF files for you already so they are plug and play ready
 
