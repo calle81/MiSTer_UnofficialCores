@@ -5,6 +5,9 @@ All core licenses and original cores can be viewed at the official project page:
 
 The goal of these Unofficial Cores is to enable the Filter scaling method where needed, which wil provide different scaling options within Core's OSD.
 
+# Downloads Available via Patreon
+* https://www.patreon.com/RetroDriven
+
 ## Some known issues: ##
 * At lower HDMI resolutions, text may appear uneven/distorted.
 * There may be shimmering, most noticeable at lower resolutions
