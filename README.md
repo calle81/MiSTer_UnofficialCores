@@ -5,9 +5,6 @@ All core licenses and original cores can be viewed at the official project page:
 
 The goal of these Unofficial Cores is to enable the Filter scaling method where needed, which wil provide different scaling options within Core's OSD.
 
-# Downloads Available via Patreon
-* https://www.patreon.com/RetroDriven
-
 ## Some known issues: ##
 * At lower HDMI resolutions, text may appear uneven/distorted.
 * There may be shimmering, most noticeable at lower resolutions
@@ -23,3 +20,6 @@ The goal of these Unofficial Cores is to enable the Filter scaling method where 
 * Download Filters here: https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releases
 * Extract Filters Folder to the root of your SD Card
 * You will be able load the different Filters real time from the Core's OSD
+
+# Patreon Page
+* https://www.patreon.com/RetroDriven
