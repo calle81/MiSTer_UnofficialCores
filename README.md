@@ -1,9 +1,8 @@
 # MiSTer_UnofficialCores
-Unofficial builds of popular MiSTer cores built using the Filter Options for HDMI.
+Unofficial builds of MiSTer Arcade Cores with the ROMs injected.
 
-All core licenses and original cores can be viewed at the official project page: https://github.com/MiSTer-devel/Main_MiSTer/wiki
-
-The goal of these Unofficial Cores is to enable the Filter scaling method where needed, which wil provide different scaling options within Core's OSD.
+# Patreon Page
+* https://www.patreon.com/RetroDriven
 
 ## Some known issues: ##
 * At lower HDMI resolutions, text may appear uneven/distorted.
@@ -14,12 +13,8 @@ The goal of these Unofficial Cores is to enable the Filter scaling method where 
 ## Notes: ##
 * I have created and provided some custom Filters
 * Arcade ROMs have been injected into the RBF files for you already so they are plug and play ready
+* I have provided the ROM files as well
+* All core licenses and original cores can be viewed at the official project page: https://github.com/MiSTer-devel/Main_MiSTer/wiki
 
-## Instructions: ##
-* Update your MiSTer binary to the latest version
-* Download Filters here: https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releases
-* Extract Filters Folder to the root of your SD Card
-* You will be able load the different Filters real time from the Core's OSD
 
-# Patreon Page
-* https://www.patreon.com/RetroDriven
+
