@@ -61,6 +61,7 @@ echo
 echo "RetroDriven Core Updater - A Festivus for the rest of Us!" 
 echo
 echo "RetroDriven.com - Launching Soon!"
+echo
 sleep 3
 
 #========= CODE STARTS HERE =========
