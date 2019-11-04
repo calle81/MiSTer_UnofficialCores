@@ -60,6 +60,8 @@ sleep 3
 echo
 echo "RetroDriven Core Updater - A Festivus for the rest of Us!" 
 echo
+echo "RetroDriven.com - Launching Soon!"
+sleep 3
 
 #========= CODE STARTS HERE =========
 
@@ -368,7 +370,7 @@ for CORE_URL in $CORE_URLS; do
 done
 wait
 
-echo "Done!"
+echo "All RetroDriven Cores have been Update!"
 if [ $REBOOT_NEEDED == "true" ]
 then
 	if [ $AUTOREBOOT == "true" ]
