@@ -16,7 +16,7 @@
 # Copyright 2018-2019 Alessandro "Locutus73" Miele
 
 # You can download the latest version of this script from:
-# https://github.com/RetroDriven/MiSTer_UnofficialCores/tree/master/Updater_Script
+# https://github.com/RetroDriven/MiSTer_UnofficialCores
 
 
 # RetroDriven v1.0 - Changed Script as needed
