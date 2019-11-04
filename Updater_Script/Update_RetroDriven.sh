@@ -370,7 +370,7 @@ function checkCoreURL {
 			echo "New core: $FILE_NAME"
 		fi
 	else
-		echo "Nothing to update"
+		echo "No Updates Available"
 	fi
 	
 	echo ""
