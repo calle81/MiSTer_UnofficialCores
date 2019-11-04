@@ -167,7 +167,7 @@ then
 	mkdir -p "${NEW_CORE_CATEGORY_PATHS[@]}"
 fi
 
-CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sLf "https://github.com/RetroDriven/Mister/wiki" | grep -io '\(https://github.com/RetroDriven/Mister/tree/master/[a-zA-Z0-9./_-]*\)\|\(user-content-[a-z-]*\)')
+CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sLf "https://github.com/RetroDriven/Mister/wiki" | grep -io '\(https://github.com/RetroDriven/MiSTer_UnofficialCores/tree/master/Arcade_Cores/[a-zA-Z0-9./_-]*\)\|\(user-content-[a-z-]*\)')
 
 
 CORE_CATEGORY="-"
