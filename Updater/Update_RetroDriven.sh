@@ -167,7 +167,7 @@ then
 	mkdir -p "${NEW_CORE_CATEGORY_PATHS[@]}"
 fi
 
-CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sLf "https://github.com/RetroDriven/Mister/wiki" | grep -io '\(https://github.com/RetroDriven/Mister/tree/master/ArcadeCores/[a-zA-Z0-9./_-]*\)\|\(user-content-[a-z-]*\)')
+CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sLf "https://github.com/RetroDriven/Mister/wiki" | grep -io '\(https://github.com/RetroDriven/Mister/tree/master/[a-zA-Z0-9./_-]*\)\|\(user-content-[a-z-]*\)')
 
 
 CORE_CATEGORY="-"
@@ -189,10 +189,10 @@ function checkCoreURL {
 	then
 		RELEASES_URL="$CORE_URL"
 	else
-		RELEASES_URL=https://github.com$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sLf "$CORE_URL" | grep -o '/RetroDriven/[a-zA-Z0-9./_-]*/tree/master/[a-zA-Z0-9./_-]*' | head -n1)
+		RELEASES_URL=https://github.com$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sLf "$CORE_URL" | grep -o '/RetroDriven/[a-zA-Z0-9./_-]*/tree/master/[a-zA-Z0-9./_-]*/releases' | head -n1)
 	fi
 
-	RELEASE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sLf "$RELEASES_URL" | grep -o '/RetroDriven/[a-zA-Z0-9./_-]*_[0-9]\{8\}[a-zA-Z]\?\(\.rbf\)\?')
+	RELEASE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sLf "$RELEASES_URL" | grep -o '/RetroDriven/[a-zA-Z0-9./_-]*_[0-9]\{8\}[a-zA-Z]\?\(\.rbf\|\.rar\)\?')
 
 	MAX_VERSION=""
 	MAX_RELEASE_URL=""
