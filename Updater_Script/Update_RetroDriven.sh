@@ -16,7 +16,7 @@
 # Copyright 2018-2019 Alessandro "Locutus73" Miele
 
 # You can download the latest version of this script from:
-# https://github.com/MiSTer-devel/Updater_script_MiSTer
+# https://github.com/RetroDriven/MiSTer_UnofficialCores/tree/master/Updater_Script
 
 
 # RetroDriven v1.0 - Changed Script as needed
@@ -30,47 +30,12 @@ BASE_PATH="/media/fat"
 declare -A CORE_CATEGORY_PATHS
 CORE_CATEGORY_PATHS["arcade-cores"]="$BASE_PATH/_RetroDriven"
 
-#Specifies if old files (cores, main MiSTer executable, menu, SD-Installer, etc.) will be deleted as part of an update.
 DELETE_OLD_FILES="true"
-
-#Specifies what to do with new cores not installed locally:
-#true for downloading new cores in the standard directories (see CORE_CATEGORY_PATHS),
-#false for not downloading new cores at all,
-#a string value, i.e. "NewCores", for downloading new cores in the "NewCores" subdirectory.
 DOWNLOAD_NEW_CORES="true"
-
-#Specifies if the "Arcade-" prefix will be removed in local arcade cores.
 REMOVE_ARCADE_PREFIX="true"
-
-#A space separated list of filters for the online repositories;
-#each filter can be part of the repository name or a whole core category,
-#i.e. “C64 Minimig NES SNES arcade-cores” if you want the script to check only
-#for C64, Minimig, NES, SNES, and all arcade cores repositories making the whole
-#update process quicker;
-#if you use this option probably you want DOWNLOAD_NEW_CORES="true" so that you
-#can use this filter in order to setup a brand new empty SD with only the cores
-#you need, otherwise cores in the filter, but not on the SD won't be downloaded.
-REPOSITORIES_FILTER=""
-
-#Specifies if the cheats will be downloaded/updated from https://gamehacking.org/
-#"true" for checking for updates each time, "false" for disabling the function,
-#"once" for downloading cheats just once if not on the SD card (no further updating).
-UPDATE_CHEATS="false"
-
-#EXPERIMENTAL: specifies if the Kernel, the Linux filesystem and the bootloader will be updated; use it at your own risk!
-UPDATE_LINUX="false"
 
 #EXPERIMENTAL: specifies if the update process must be done with parallel processing; use it at your own risk!
 PARALLEL_UPDATE="false"
-
-#Specifies an optional URL with a text file containing a curated list of "good" cores.
-#If a core is specified there, it will be preferred over the latest "bleeding edge" core in its repository.
-#The text file can be something simple as "Genesis_20190712.rbf SNES_20190703.rbf".
-GOOD_CORES_URL=""
-
-#Specifies if the core directory (i.e. /media/fat/Amiga for Minimig core, /media/fat/SNES for SNES core) has to be created
-#the first time the core is downloaded.
-CREATE_CORES_DIRECTORIES="false"
 
 #========= ADVANCED OPTIONS =========
 #ALLOW_INSECURE_SSL="true" will check if SSL certificate verification (see https://curl.haxx.se/docs/sslcerts.html )
@@ -91,9 +56,9 @@ REBOOT_PAUSE=0
 TEMP_PATH="/tmp"
 TO_BE_DELETED_EXTENSION="to_be_deleted"
 
-sleep 2
+sleep 3
 echo
-echo "RetroDriven Core Updater - A Festivus for the rest of us!" 
+echo "RetroDriven Core Updater - A Festivus for the rest of Us!" 
 echo
 
 #========= CODE STARTS HERE =========
