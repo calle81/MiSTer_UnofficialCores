@@ -338,7 +338,7 @@ function checkCoreURL {
 			echo "New core: $FILE_NAME"
 		fi
 	else
-		echo "No Updates Available"
+		echo "Core is up to date!"
 	fi
 	
 	echo ""
@@ -371,7 +371,7 @@ for CORE_URL in $CORE_URLS; do
 done
 wait
 
-echo "All RetroDriven Cores have been Update!"
+echo "All RetroDriven Cores have been Updated!"
 echo
 if [ $REBOOT_NEEDED == "true" ]
 then
