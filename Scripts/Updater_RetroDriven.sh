@@ -58,9 +58,9 @@ TO_BE_DELETED_EXTENSION="to_be_deleted"
 
 sleep 3
 echo
-echo "RetroDriven Core Updater - A Festivus for the rest of Us!" 
-echo
 echo "RetroDriven.com - Launching Soon!"
+echo
+echo "RetroDriven Core Updater - A Festivus for the rest of Us!" 
 echo
 sleep 3
 
@@ -372,6 +372,7 @@ done
 wait
 
 echo "All RetroDriven Cores have been Update!"
+echo
 if [ $REBOOT_NEEDED == "true" ]
 then
 	if [ $AUTOREBOOT == "true" ]
