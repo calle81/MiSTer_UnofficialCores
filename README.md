@@ -17,7 +17,7 @@ Unofficial builds of MiSTer Arcade Cores with the ROMs injected. These Cores are
 By downloading ROM injected Core/RBF files you are agreeing to the following:
 
 * You are responsible for checking your local laws regarding the use of the ROM injected Core/RBF files.
-* You are authorized to own a license to use any the ROM injected Core/RBF file that you download.
+* You are authorized/licensd to own/use the ROM injected Core/RBF file that you download.
 * You will not distribute any of these files without the appropriate permissions.
 * You own the original Arcade PCB for each ROM injected Core/RBF files that you download.
 * I take no responsibility for any data loss or anything, use the script at your own risk.
