@@ -3,7 +3,7 @@ Unofficial builds of MiSTer Arcade Cores with the ROMs injected. These Cores are
 
 ## Usage ##
 * Download Update_RetroDriven.sh and save it to your Scripts folder on your MiSTer SD Card(typically /media/fat/Scripts).
-* Optional: Download Update_RetroDriven.ini and save it to your Scripts folder. You can change the INI file as needed but it is nor required.
+* Optional: Download Update_RetroDriven.ini and save it to your Scripts folder. You can change the INI file as needed but it is not required.
 * Simply run the Update_RetroDriven.sh via MiSTer Menu to Download/Update the ROM injected Cores
 
 ## Notes ##
